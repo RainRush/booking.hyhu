@@ -1,0 +1,173 @@
+<html>
+<head>
+	<meta name="viewport" content= "width=device-width, initial-scale=1.0"> 
+	<!-- Bootstrap -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+	<!-- JQuery -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+	<!-- React -->
+	<script crossorigin src="https://unpkg.com/react@16/umd/react.production.min.js"></script>
+	<script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>
+
+	<!-- Icons -->
+	<script src="https://kit.fontawesome.com/4337ff61f2.js"></script>
+	
+	<!-- My Design -->
+	<link rel="stylesheet" href="style/styles.css">
+	<script src="script/scripts.js"></script>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-md sticky-top health-nav">
+  <a class="nav-link health-brand" href="index.html">Health Centre</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsingNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="navbar-collapse collapse" id="collapsingNavbar">
+    <ul class="navbar-nav ml-auto">
+    	<li class="nav-item health-nav-button">
+      	<a class="nav-link" href="#" data-target="#myModal" data-toggle="modal">
+      		Profile <i class='fas fa-caret-down'></i>
+      	</a>
+    	</li>
+  	</ul>
+  </div>
+</nav>
+
+<div class="container-fluid">
+	<div class="row text-center">
+		<div class="col-md-12 subtitles">
+			<h2>Professional Types</h2>
+		</div>
+	</div>
+	<div class="row text-center justify-content-center">
+		<div class="col-md-3 prof_type_cell" id="phy">
+			<img src="image/physicians.png" alt="Physicians" class="circle prof_type_image">
+			<h6>Physicians</h6>
+			<!-- Physicians Doctor by Iconic from the Noun Project -->
+		</div>
+		<!-- <div class="col-md-3 prof_type_cell" id="den">
+			<img src="image/dentist.png" alt="Dentists" class="circle prof_type_image">
+			<h6>Dentists</h6>
+			Dentist <div>Icons made by <a href="https://www.flaticon.com/authors/surang" title="surang">surang</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
+		</div>
+ -->		<!-- <div class="col prof_type_cell"  id="oph">
+			<img src="image/ophthalmologist.png" alt="Ophthalmologist" class="circle prof_type_image">
+			<h6>Ophthalmologist</h6>
+			Ophthalmologist <div>Icons made by <a href="https://www.flaticon.com/authors/eucalyp" title="Eucalyp">Eucalyp</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
+		</div> -->
+		<div class="col-md-3 prof_type_cell" id="pt">
+			<img src="image/physical_therapist.png" alt="Physical Therapist" class="circle prof_type_image">
+			<h6>Physical Therapist</h6>
+		</div>
+		<div class="col-md-3 prof_type_cell" id="psy">
+			<img src="image/psychologist.png" alt="Psychologist" class="circle prof_type_image">
+			<h6>Psychologist</h6>
+			<!-- Psychologist <div>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div> -->
+		</div>
+	</div>
+</div>
+
+<div class="container-fluid">
+	<div class="row text-center">
+		<div class="col-md-12 subtitles">
+			<h2>Professionals</h2>
+		</div>
+	</div>
+	<div class="row text-center justify-content-center">
+		<div class="col-md-3 prof_name_cell prof_phy">
+			<img src="image/sally.png" alt="Sally" class="circle prof_type_image">
+			<h5>Sally</h5>
+			<h6>Physicians</h6>
+			<p>
+				Experience: 6 yrs<br/>
+				Graduated from the University of Melbourne.
+			</p>
+		</div>
+		<div class="col-md-3 prof_name_cell prof_pt">
+			<img src="image/sally.png" alt="Sally" class="circle prof_type_image">
+			<h5>Monica</h5>
+			<h6>Physical Therapist</h6>
+			<p>
+				Experience: 4 yrs<br/>
+				Graduated from the University of Melbourne.
+			</p>
+		</div>
+		<div class="col-md-3 prof_name_cell prof_psy">
+			<img src="image/sally.png" alt="Sally" class="circle prof_type_image">
+			<h5>Britney</h5>
+			<h6>Psychologist</h6>
+			<p>
+				Experience: 3 yrs<br/>
+				Graduated from the University of Melbourne.
+			</p>
+		</div>
+		<div class="col-md-3 prof_name_cell prof_phy">
+			<img src="image/sally.png" alt="Sally" class="circle prof_type_image">
+			<h5>Gaby</h5>
+			<h6>Physicians</h6>
+			<p>
+				Experience: 6 yrs<br/>
+				Graduated from the University of Melbourne.
+			</p>
+		</div>
+		<div class="col-md-3 prof_name_cell prof_pt">
+			<img src="image/sally.png" alt="Sally" class="circle prof_type_image">
+			<h5>Evan</h5>
+			<h6>Physical Therapist</h6>
+			<p>
+				Experience: 5 yrs<br/>
+				Graduated from the University of Melbourne.
+			</p>
+		</div>
+		<div class="col-md-3 prof_name_cell prof_psy">
+			<img src="image/sally.png" alt="Sally" class="circle prof_type_image">
+			<h5>Venice</h5>
+			<h6>Psychologist</h6>
+			<p>
+				Experience: 4 yrs<br/>
+				Graduated from the University of Melbourne.
+			</p>
+		</div>
+		<div class="col-md-3 prof_name_cell prof_phy">
+			<img src="image/sally.png" alt="Sally" class="circle prof_type_image">
+			<h5>Nova</h5>
+			<h6>Physicians</h6>
+			<p>
+				Experience: 14 yrs<br/>
+				Graduated from the University of Melbourne.
+			</p>
+		</div>
+		<div class="col-md-3 prof_name_cell prof_pt">
+			<img src="image/sally.png" alt="Sally" class="circle prof_type_image">
+			<h5>Candice</h5>
+			<h6>Physical Therapist</h6>
+			<p>
+				Experience: 16 yrs<br/>
+				Graduated from the University of Melbourne.
+			</p>
+		</div>
+		<div class="col-md-3 prof_name_cell prof_psy">
+			<img src="image/sally.png" alt="Sally" class="circle prof_type_image">
+			<h5>Flora</h5>
+			<h6>Psychologist</h6>
+			<p>
+				Experience: 2 yrs<br/>
+				Graduated from the University of Melbourne.
+			</p>
+		</div>
+	</div>
+</div>
+
+
+
+
+
+
+
+
+</body>
+</html>
